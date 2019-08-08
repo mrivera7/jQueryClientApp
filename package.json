@@ -4,6 +4,9 @@
   "description": "A development environment",
   "main": "index.js",
   "scripts": {
+    "build-prod": "webpack -d --mode production",
+    "build-dev": "webpack -d --mode development",
+    "start": "webpack-dev-server --open --hot --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael A. Rivera",
@@ -31,5 +34,8 @@
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

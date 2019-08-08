@@ -10,7 +10,7 @@ module.exports = api => {
     ];
     const plugins = [
         '@babel/plugin-proposal-class-properties',
-        '@babel/plugin-syntac-dynamic-import',
+        '@babel/plugin-syntax-dynamic-import',
     ];
     return { presets, plugins };
 };
